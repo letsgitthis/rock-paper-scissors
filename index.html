@@ -3,15 +3,35 @@
     <head>
         <meta charset="">
         <title>Rock Paper Scissors</title>
+        <link rel="stylesheet" type="text/css" href="assets/style.css">
+        <link rel="javascript" type="text/javascript" href="assets/app.js">
     </head>
     <body>
         <header>
             <h1>Rock Paper Scissors</h1>
         </header>
 
-        <div class="score">
-            <div id="player">player</div>
-            <div id="computer">computer</div>
+        <div class="scoreboard">
+            <div id="player" class="tag">Player</div>
+            <div id="computer" class="tag">Comp</div>
+            <span id="playerscore">0</span> : <span id="computerscore">0</span>
         </div>
+
+        <img id="evilcomputer" src="assets/images/evilcomputer.png">
+
+        <div class="container">
+                <img id="r" class="subcontainer" src="assets/images/rps1.png" alt="rock">
+                <img id="p" class="subcontainer" src="assets/images/rps2.png" alt="paper">
+                <img id="s" class="subcontainer" src="assets/images/rps3.png" alt="scissors">
+        </div>
+
+        <div class="win">
+            <p>You Win!</p>
+        </div>
+
+        <div class="lose">
+            <p>You Lose</p>
+        </div>
+
     </body>
 </html>
