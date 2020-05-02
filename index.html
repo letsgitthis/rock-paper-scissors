@@ -1,37 +1,43 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <meta charset="">
+        <meta charset="utf-8">
         <title>Rock Paper Scissors</title>
         <link rel="stylesheet" type="text/css" href="assets/style.css">
-        <link rel="javascript" type="text/javascript" href="assets/app.js">
     </head>
     <body>
         <header>
             <h1>Rock Paper Scissors</h1>
         </header>
-
+        
         <div class="scoreboard">
             <div id="player" class="tag">Player</div>
             <div id="computer" class="tag">Comp</div>
             <span id="playerscore">0</span> : <span id="computerscore">0</span>
         </div>
-
-        <img id="evilcomputer" src="assets/images/evilcomputer.png">
-
+        
+        <img id="evilcomputer" class="evilcomp" src="assets/images/evilcomputer.png">
+        
         <div class="container">
-                <img id="r" class="subcontainer" src="assets/images/rps1.png" alt="rock">
-                <img id="p" class="subcontainer" src="assets/images/rps2.png" alt="paper">
-                <img id="s" class="subcontainer" src="assets/images/rps3.png" alt="scissors">
+            <div id="r" class="subcontainer">
+                <img src="assets/images/rps1.png" alt="rock">
+            </div>
+            <div id="p" class="subcontainer">
+                <img src="assets/images/rps2.png" alt="paper">
+            </div>
+            <div id="s" class="subcontainer">    
+                <img  src="assets/images/rps3.png" alt="scissors">
+            </div>
         </div>
-
+        
         <div class="win">
             <p>You Win!</p>
         </div>
-
+        
         <div class="lose">
             <p>You Lose</p>
         </div>
-
+        
+        <script type="text/javascript" src="assets/app.js"></script>
     </body>
 </html>
